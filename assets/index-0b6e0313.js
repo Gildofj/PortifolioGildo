@@ -108,7 +108,7 @@ Error generating stack: `+o.message+`
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 `,P0=ae.div`
-  background: url("/assets/images/me.jpg");
+  background: url("/PortifolioGildo/assets/images/me.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
