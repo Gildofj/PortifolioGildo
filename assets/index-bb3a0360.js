@@ -120,8 +120,10 @@ Error generating stack: `+o.message+`
   transition: .2s;
 
   &:hover, &:focus {
-    width: 315px;
-    height: 315px;
+    transform: scale(1.1);
+  }
+  &:active {
+    transform: scale(.9);
   }
 `,N0=ae.a`
   height: 320px;
