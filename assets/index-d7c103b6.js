@@ -122,7 +122,7 @@ Error generating stack: `+l.message+`
     border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
   }
 `,ph=N.div`
-  background: url("/PortifolioGildo/assets/images/me.jpg");
+  background: url("/portfolio/assets/images/me.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
