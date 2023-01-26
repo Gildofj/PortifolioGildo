@@ -98,7 +98,7 @@ Error generating stack: `+i.message+`
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#720e9e",endColorstr="#800080",GradientType=1);
   }
 `,V1=z.a`
-  color: ${({active:e,theme:t})=>e?t.colors.purple_300:"inherit"};
+  color: ${({active:e,open:t,theme:n})=>e&&!t?n.colors.purple_300:"inherit"};
   font-weight: ${({active:e})=>e?900:600};
   transition: .2s;
 
@@ -132,7 +132,7 @@ Error generating stack: `+i.message+`
     font-size: 4rem;
     color: ${({theme:{colors:e}})=>e.text}
   }
-`;function Y1(){const e=Ff(),[t,n]=O.useState(!1);return O.useEffect(()=>{n(!1)},[e]),U(W1,{children:[U(U1,{children:[T(Q1,{onClick:()=>n(!t),children:T(G1,{className:"bx bx-menu"})}),T(H1,{open:t,children:jf(e).map(({id:r,href:o,text:i,active:l})=>T("li",{children:T(V1,{active:l,href:o,children:i})},r))})]}),T(tp,{})]})}const Xi=z.h3`
+`;function Y1(){const e=Ff(),[t,n]=O.useState(!1);return O.useEffect(()=>{n(!1)},[e]),U(W1,{children:[U(U1,{children:[T(Q1,{onClick:()=>n(!t),children:T(G1,{className:"bx bx-menu"})}),T(H1,{open:t,children:jf(e).map(({id:r,href:o,text:i,active:l})=>T("li",{children:T(V1,{active:l,open:t,href:o,children:i})},r))})]}),T(tp,{})]})}const Xi=z.h3`
   font-size: 2rem;
   font-weight: bold;
   color: ${({theme:{colors:e}})=>e.pink};
