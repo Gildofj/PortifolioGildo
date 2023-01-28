@@ -134,17 +134,17 @@ Error generating stack: `+i.message+`
     color: ${({theme:{colors:e}})=>e.text}
   }
 `,K1=z.div`
-  display: ${({show:e})=>e?"block":"none"};
-  width: 100%;
+  display: ${({show:e})=>e?"flex":"none"};
+  width: 100vw;
+  height: 100vh;
   position: absolute;
   top: 0;
   left: 0;
-  height: 100vh;
   overflow-y: hidden;
   background-color:${({show:e})=>e?"#000000D0":"#00000000"};
   z-index: 998;
   transition: all .2s ease-in-out
-`;function X1(){const e=Ff(),[t,n]=O.useState(!1);return O.useEffect(()=>{n(!1)},[e]),U(Np,{children:[U(Q1,{children:[U(H1,{children:[_(G1,{onClick:()=>n(!t),children:_(Y1,{className:"bx bx-menu"})}),_(V1,{open:t,children:jf(e).map(({id:r,href:o,text:i,active:l})=>_("li",{children:_(W1,{active:l,open:t,href:o,children:i})},r))})]}),_(tp,{})]}),_(K1,{show:t})]})}const Xi=z.h3`
+`;function X1(){const e=Ff(),[t,n]=O.useState(!1);return O.useEffect(()=>{n(!1)},[e]),U(Np,{children:[U(Q1,{children:[U(H1,{children:[_(G1,{onClick:()=>n(!t),children:_(Y1,{className:"bx bx-menu"})}),_(V1,{open:t,children:jf(e).map(({id:r,href:o,text:i,active:l})=>_("li",{children:_(W1,{active:l,open:t,href:o,children:i})},r))})]}),_(tp,{})]}),_(K1,{show:t,onClick:()=>n(!1)})]})}const Xi=z.h3`
   font-size: 2rem;
   font-weight: bold;
   color: ${({theme:{colors:e}})=>e.pink};
