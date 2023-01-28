@@ -135,8 +135,8 @@ Error generating stack: `+i.message+`
   }
 `,K1=z.div`
   display: ${({show:e})=>e?"flex":"none"};
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   position: absolute;
   top: 0;
   left: 0;
