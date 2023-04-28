@@ -91,7 +91,7 @@ Error generating stack: `+i.message+`
     position: absolute;
     top: 6rem;
     left: 0;
-    height: ${({open:e})=>e?"calc(100vh - 4rem)":0};
+    height: ${({open:e})=>e?"calc(100vh - 6rem)":0};
     transition: all 0.3s ease-in;
     overflow-y: ${({open:e})=>e?"auto":"hidden"};
     border-radius: 0 0 0.625rem 0.625rem;
