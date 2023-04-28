@@ -92,7 +92,7 @@ Error generating stack: `+i.message+`
     top: 6rem;
     left: 0;
     z-index: 10;
-    height: ${({open:e})=>e?"calc(100vh - 3rem)":0};
+    height: ${({open:e})=>e?"100vh":0};
     transition: all 0.3s ease-in;
     overflow-y: ${({open:e})=>e?"auto":"hidden"};
     border-radius: 0 0 0.625rem 0.625rem;
