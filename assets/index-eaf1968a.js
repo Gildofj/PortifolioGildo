@@ -72,6 +72,10 @@ Error generating stack: `+i.message+`
   padding: 0.5rem 3rem 0.5rem 1rem;
   background-color: ${({theme:{colors:e}})=>e.background_900};
   color: ${({theme:{colors:e}})=>e.white};
+
+  @media screen and (max-width: 768px) {
+      height: 6rem;
+  }
 `,H0=z.ul`
   flex: 1;
   display: flex;
@@ -85,7 +89,7 @@ Error generating stack: `+i.message+`
     font-size: 2rem;
     gap: 5rem;
     position: absolute;
-    top: 4rem;
+    top: 6rem;
     left: 0;
     height: ${({open:e})=>e?"calc(100vh - 4rem)":0};
     transition: all 0.3s ease-in;
@@ -130,7 +134,7 @@ Error generating stack: `+i.message+`
   }
 `,G0=z.i`
   @media screen and (max-width: 768px) {
-    font-size: 4rem;
+    font-size: 6rem;
     color: ${({theme:{colors:e}})=>e.text}
   }
 `;function Y0(){const e=F1(),[t,n]=O.useState(!1);return O.useEffect(()=>{n(!1)},[e]),j(W0,{children:[j(U0,{children:[C(Q0,{onClick:()=>n(!t),children:C(G0,{className:"bx bx-menu"})}),C(H0,{open:t,children:B1(e).map(({id:r,href:o,text:i,active:l})=>C("li",{children:C(V0,{active:l,open:t,href:o,children:i})},r))})]}),C(Zf,{})]})}const Zr=z.h3`
