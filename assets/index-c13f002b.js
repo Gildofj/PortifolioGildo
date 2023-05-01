@@ -509,8 +509,17 @@ Error generating stack: `+i.message+`
     width: 4px;
   }
 `,Mh=_.button`
-  background: none;
   display: block;
+  margin-top: 0.5rem;
+  background: none;
+  font-size: ${({theme:{fontSizes:e}})=>e.small};
+  cursor: pointer;
+  color: ${({theme:{colors:e}})=>e.purple_300};
+  transition: .2s;
+
+  &:hover {
+    color: ${({theme:{colors:e}})=>e.purple_200};
+  }
 `,Fh=_.div`
   display: flex;
   flex-direction: column;
