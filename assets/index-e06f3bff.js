@@ -148,7 +148,7 @@ Error generating stack: `+i.message+`
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.7);
   z-index: 9999;
-`;function gi(e){e?document.body.style.overflow="hidden":document.body.style.overflow="unset"}function th(){const e=G0(),[t,n]=L.useState(!1);return L.useEffect(()=>{n(!1)},[e]),L.useEffect(()=>{gi(t)},[]),L.useEffect(()=>{gi(t)},[t]),A(Z1,{children:[t&&k(lp,{onClick:()=>n(!t)}),A(K1,{children:[k(q1,{onClick:()=>n(!t),children:k(eh,{className:"bx bx-menu"})}),k(X1,{open:t,children:Y0(e).map(({id:r,href:o,text:i,active:l})=>k("li",{children:k(J1,{active:l,open:t,href:o,children:i})},r))})]}),k(ip,{})]})}const no=E.h3`
+`;function gi(e){e?(document.body.style.overflow="hidden",document.body.style.touchAction="none"):(document.body.style.overflow="auto",document.body.style.touchAction="auto")}function th(){const e=G0(),[t,n]=L.useState(!1);return L.useEffect(()=>{n(!1)},[e]),L.useEffect(()=>{gi(t)},[]),L.useEffect(()=>{gi(t)},[t]),A(Z1,{children:[t&&k(lp,{onClick:()=>n(!t)}),A(K1,{children:[k(q1,{onClick:()=>n(!t),children:k(eh,{className:"bx bx-menu"})}),k(X1,{open:t,children:Y0(e).map(({id:r,href:o,text:i,active:l})=>k("li",{children:k(J1,{active:l,open:t,href:o,children:i})},r))})]}),k(ip,{})]})}const no=E.h3`
   font-size: 2rem;
   font-weight: bold;
   color: ${({theme:{colors:e}})=>e.pink};
