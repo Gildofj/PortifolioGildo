@@ -162,6 +162,10 @@ Error generating stack: `+i.message+`
   justify-content: center;
   width: 100%;
   padding-top: 5rem;
+
+  @media screen and (max-width: 768px) {
+      padding-top: 7rem;
+  }
 `,o1=E.section`
   width: 100%;
   display: flex;
