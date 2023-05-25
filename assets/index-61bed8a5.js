@@ -256,6 +256,7 @@ Error generating stack: `+i.message+`
  gap: 1rem;
 `,hc=E.p`
   color: ${({theme:{colors:e}})=>e.text};
+  width: 100%;
   line-height: 2rem;
   text-align: justify;
 
