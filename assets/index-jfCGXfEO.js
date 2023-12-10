@@ -77,6 +77,10 @@ G.version="2.29.4";aT(je);G.fn=H;G.min=KE;G.max=QE;G.now=qE;G.utc=On;G.unix=TC;G
   justify-content: center;
   gap: 1rem;
   margin: 7rem 2rem;
+
+  @media screen and (max-width: 768px) {
+   margin: 7rem 0rem;
+  }
 `,R0=$.p`
   color: ${({theme:{colors:e}})=>e.text};
   width: 100%;
@@ -94,6 +98,10 @@ G.version="2.29.4";aT(je);G.fn=H;G.min=KE;G.max=QE;G.now=qE;G.utc=On;G.unix=TC;G
   align-items: center;
   gap: 4rem;
   margin: 7rem 2rem;
+
+  @media screen and (max-width: 768px) {
+    margin: 7rem 0rem;
+ }
 `,Db=$.div`
  width: 100%;
  display: flex;
@@ -850,6 +858,18 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 768px) {
+   max-width: 30rem;
+  }
+
+  @media screen and (max-width: 1260px) {
+    max-width: 40rem;
+  }
+
+  @media screen and (min-width: 1260px) and (max-width: 1480px) {
+    max-width: 70rem;
+  }
 `,uL=$(aL)`
   height: 100%;
   padding: 5rem 3rem 1rem 3rem;
@@ -867,6 +887,10 @@ G.defineLocale("pt-br",{months:"janeiro_fevereiro_março_abril_maio_junho_julho_
   align-items: center;
   justify-content: space-between;
   margin: 7rem 2rem;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 15rem;
+  }
 `,fL=$.div`
   display: flex;
   flex-direction: column;
