@@ -76,11 +76,7 @@ G.version="2.29.4";aT(je);G.fn=H;G.min=KE;G.max=QE;G.now=qE;G.utc=On;G.unix=TC;G
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  margin: 7rem 2rem;
-
-  @media screen and (max-width: 768px) {
-   margin: 7rem 0rem;
-  }
+  padding: 7rem 2rem;
 `,R0=$.p`
   color: ${({theme:{colors:e}})=>e.text};
   width: 100%;
@@ -468,8 +464,12 @@ G.version="2.29.4";aT(je);G.fn=H;G.min=KE;G.max=QE;G.now=qE;G.utc=On;G.unix=TC;G
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 7rem 2rem;
+  padding: 7rem 2rem;
   gap: 1rem;
+
+  @media screen and (max-width: 768px) {
+    margin: 0;
+  }
 `,wA=$.div`
   display: grid;
   grid-gap: 1rem;
@@ -499,8 +499,8 @@ G.version="2.29.4";aT(je);G.fn=H;G.min=KE;G.max=QE;G.now=qE;G.utc=On;G.unix=TC;G
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#720e9e",endColorstr="#800080",GradientType=1);
 
   @media screen and (max-width: 768px) {
-    padding: 1.5rem;
     border-radius: 1rem;
+    max-width: 30rem;
   }
 `,SA=$.img`
   width: 21.5rem;
