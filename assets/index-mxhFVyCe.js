@@ -93,11 +93,7 @@ G.version="2.29.4";aT(je);G.fn=H;G.min=KE;G.max=QE;G.now=qE;G.utc=On;G.unix=TC;G
   flex-direction: column;
   align-items: center;
   gap: 4rem;
-  margin: 7rem 2rem;
-
-  @media screen and (max-width: 768px) {
-    margin: 7rem 0rem;
- }
+  padding: 7rem 2rem;
 `,Db=$.div`
  width: 100%;
  display: flex;
@@ -466,10 +462,6 @@ G.version="2.29.4";aT(je);G.fn=H;G.min=KE;G.max=QE;G.now=qE;G.utc=On;G.unix=TC;G
   justify-content: center;
   padding: 7rem 2rem;
   gap: 1rem;
-
-  @media screen and (max-width: 768px) {
-    margin: 0;
-  }
 `,wA=$.div`
   display: grid;
   grid-gap: 1rem;
@@ -574,7 +566,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   flex-direction: column;
   align-items: center;
   gap: 3rem;
-  margin: 7rem 2rem;
+  padding: 7rem 2rem;
 `,bA=$.div`
   max-width: 48rem;
   min-height: 30rem;
@@ -770,7 +762,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  margin: 7rem 2rem;
+  padding: 7rem 2rem;
 `,GA=$.div`
   display: flex;
   flex-wrap: wrap;
@@ -886,7 +878,7 @@ G.defineLocale("pt-br",{months:"janeiro_fevereiro_março_abril_maio_junho_julho_
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  margin: 7rem 2rem;
+  padding: 7rem 2rem;
 
   @media screen and (max-width: 768px) {
     margin-top: 15rem;
