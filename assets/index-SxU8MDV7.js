@@ -601,7 +601,6 @@ ne.version="2.30.1";_b(Ke);ne.fn=J;ne.min=fE;ne.max=dE;ne.now=hE;ne.utc=qn;ne.un
 
   @media screen and (max-width: 768px) {
     width: 26rem;
-    height: 16rem;
     border-radius: 1rem;
   }
 
