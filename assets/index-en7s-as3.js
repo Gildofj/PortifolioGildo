@@ -528,7 +528,7 @@ ne.version="2.30.1";_b(Ke);ne.fn=J;ne.min=fE;ne.max=dE;ne.now=hE;ne.utc=qn;ne.un
   @media screen and (max-width: 768px) {
     display: inline-block;
   }
-`;function Nj({handleNavbarItemClick:e}){const t=cD(),[n,r]=Y.useState(!1);return Y.useEffect(()=>{r(!1)},[t]),Y.useEffect(()=>{Cu(n)},[]),Y.useEffect(()=>{Cu(n)},[n]),D.jsxs(Aj,{children:[n&&D.jsx(kS,{onClick:()=>r(!n)}),D.jsxs(Cj,{children:[D.jsx(Rj,{src:"http://localhost:5173/portfolio/assets/images/logo.png"}),D.jsx(Mj,{onClick:()=>r(!n),children:D.jsx(jj,{className:"bx bx-menu"})}),D.jsx(Oj,{open:n,children:tD(t).map(({id:i,href:o,text:s,active:a})=>D.jsx("li",{children:D.jsx(Dj,{active:a,open:n,onClick:()=>e(),href:o,"data-to-scrollspy-id":o.replace("#",""),children:s})},i))}),D.jsx(Lj,{src:"http://localhost:5173/portfolio/assets/images/logo.png"})]}),D.jsx(Zw,{})]})}const Ij=G.section`
+`;function Nj({handleNavbarItemClick:e}){const t=cD(),[n,r]=Y.useState(!1);return Y.useEffect(()=>{r(!1)},[t]),Y.useEffect(()=>{Cu(n)},[]),Y.useEffect(()=>{Cu(n)},[n]),D.jsxs(Aj,{children:[n&&D.jsx(kS,{onClick:()=>r(!n)}),D.jsxs(Cj,{children:[D.jsx(Rj,{src:"https://gildofj.github.io/portfolio/assets/images/logo.png"}),D.jsx(Mj,{onClick:()=>r(!n),children:D.jsx(jj,{className:"bx bx-menu"})}),D.jsx(Oj,{open:n,children:tD(t).map(({id:i,href:o,text:s,active:a})=>D.jsx("li",{children:D.jsx(Dj,{active:a,open:n,onClick:()=>e(),href:o,"data-to-scrollspy-id":o.replace("#",""),children:s})},i))}),D.jsx(Lj,{src:"http://localhost:5173/portfolio/assets/images/logo.png"})]}),D.jsx(Zw,{})]})}const Ij=G.section`
   width: 100%;
   min-height: 100vh;
   display: flex;
